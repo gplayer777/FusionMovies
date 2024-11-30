@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/fusionmovies
+    username: root
+    password: admin
+  liquibase:
+    contexts: prod
+  web:
+    resources:
+      static-locations: classpath:/static/,file:/Users/kacper1/Desktop/
+app:
+  storage:
+    location: /Users/kacper1/Desktop/
